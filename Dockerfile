@@ -1,4 +1,4 @@
-FROM mautic/mautic:v5-apache
+FROM mautic/mautic:5.1.0-apache
 
 RUN chown -R www-data:www-data /var/www/html
 
